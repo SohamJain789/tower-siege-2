@@ -62,6 +62,9 @@ function setup() {
 function draw() {
   background(247,247,247);
    Engine.update(engine);
+  textSize(16)
+  text("Press space to get another chance",500,250);
+  
    stand1.display(); 
    stand2.display();
 
